@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node Backend/server.js",
-    "server": "nodemon Backend/server.js"
+    "server": "nodemon Backend/server.js",
+    "client": "npm run dev --prefix Frontend"
   },
   "author": "Jerry",
   "license": "ISC",
